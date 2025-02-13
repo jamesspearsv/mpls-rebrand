@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import ThemeSelector from './ui/ThemeSelector';
+import DesignPreview from './ui/DesignPreview';
 
 export interface ThemeInterface {
   primary: string;
@@ -35,7 +36,7 @@ export default function App() {
         fontOption={fontOption}
         setfontOption={setFontOption}
       />
-      <div>theme preview</div>
+      <DesignPreview />
     </main>
   );
 }

@@ -1,0 +1,10 @@
+.container {
+  margin-left: var(--main-margin-left);
+  width: 100%;
+  padding: var(--sidebar-padding);
+}
+
+.preview {
+  width: 75%;
+  margin: auto;
+}
