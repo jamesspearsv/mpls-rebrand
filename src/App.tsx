@@ -29,7 +29,7 @@ export default function App() {
         setFont={setFont}
         fontOptions={FontOptions}
       />
-      <DesignPreview />
+      <DesignPreview colors={colorSet} />
     </main>
   );
 }
